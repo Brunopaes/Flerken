@@ -42,9 +42,6 @@ class SendMail(object):
         self.server = 'smtp.gmail.com'
         self.port = 587
 
-        # self.recipients = 'gars97@gmail.com, brunopaes05@gmail.com, guinh97@gmail.com, briottoleo@gmail.com' \
-        #                   'thiagoandf@gmail.com, caiorulli@gmail.com, hellencfarias@gmail.com, enzo_98@me.com,' \
-        #                   'juliana_mayumi14@hotmail.com, guilhermemarcon@me.com, rodrigocmundel@hotmail.com'
         self.recipients = open('../data/recipients.txt').read()
 
         session = smtplib.SMTP(self.server, self.port)

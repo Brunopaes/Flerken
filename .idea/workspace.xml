@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4ae9fb6-53a2-4d89-91cc-e54963e5a2c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/recipients.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/log_all.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scraper_movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scraper_movie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,27 +26,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="2" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="md" value="49" />
           <entry key="py" value="196" />
-          <entry key="txt" value="73" />
+          <entry key="txt" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Markdown" value="49" />
+          <entry key="PLAIN_TEXT" value="104" />
           <entry key="Python" value="196" />
         </counts>
       </usages-collector>
@@ -56,32 +56,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scraper_movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="64" column="83" lean-forward="true" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
+            <state relative-caret-position="116">
+              <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#222#340#0" />
+                <element signature="e#399#429#0" />
+                <element signature="e#496#1056#0" />
+                <element signature="e#536#699#0" />
+                <element signature="e#727#1056#0" />
+                <element signature="e#755#1056#0" />
+                <element signature="e#849#1060#0" />
+                <element signature="e#1084#1123#0" />
+                <element signature="e#1182#1847#0" />
+                <element signature="e#1959#2765#0" />
+                <element signature="e#2158#2559#0" />
+                <element signature="e#2639#2765#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/recipients.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="246" selection-start-column="246" selection-end-column="246" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -103,8 +97,9 @@
       <list>
         <option value="$PROJECT_DIR$/data/log_all.txt" />
         <option value="$PROJECT_DIR$/src/test.py" />
-        <option value="$PROJECT_DIR$/src/scraper_movie.py" />
         <option value="$PROJECT_DIR$/data/recipients.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/scraper_movie.py" />
       </list>
     </option>
   </component>
@@ -132,11 +127,6 @@
             <path>
               <item name="06.4 - Flerken" type="b2602c69:ProjectViewProjectNode" />
               <item name="06.4 - Flerken" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.4 - Flerken" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.4 - Flerken" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="06.4 - Flerken" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552614032545</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="List of recipients - text file">
+      <created>1552617403396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552617403396</updated>
+    </task>
+    <task id="LOCAL-00004" summary="List of recipients - text file">
+      <created>1552617599123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552617599123</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -262,7 +266,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -272,7 +276,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,17 +299,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating log files" />
     <MESSAGE value="Updating the scraper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating the scraper" />
+    <MESSAGE value="List of recipients - text file" />
+    <option name="LAST_COMMIT_MESSAGE" value="List of recipients - text file" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-114" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/log_error.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -319,13 +316,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scraper_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="64" column="83" lean-forward="true" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1280">
+            <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -333,6 +330,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="246" selection-start-column="246" selection-end-column="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scraper_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#222#340#0" />
+            <element signature="e#399#429#0" />
+            <element signature="e#496#1056#0" />
+            <element signature="e#536#699#0" />
+            <element signature="e#727#1056#0" />
+            <element signature="e#755#1056#0" />
+            <element signature="e#849#1060#0" />
+            <element signature="e#1084#1123#0" />
+            <element signature="e#1182#1847#0" />
+            <element signature="e#1959#2765#0" />
+            <element signature="e#2158#2559#0" />
+            <element signature="e#2639#2765#0" />
+          </folding>
         </state>
       </provider>
     </entry>

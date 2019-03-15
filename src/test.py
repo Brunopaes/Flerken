@@ -1,1 +1,0 @@
-print(type(open('../data/recipients.txt').read()))
