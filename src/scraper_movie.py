@@ -35,7 +35,7 @@ class Scraper:
         return self.soup(self.accessing_page())
 
 
-class SendMail(object):
+class SendMail:
     def __init__(self):
         self.email = 'brunopaes05@gmail.com'
         self.password = 'eulpecyaaazekfot'
@@ -68,14 +68,25 @@ class SendMail(object):
             server.sendmail(self.email, message['To'].split(','), message.as_string())
 
 
+class Main:
+    def __init__(self):
+        self.content = 'Não encontramos nenhuma sessão :('
+
+    def __call__(self, *args, **kwargs):
+        while True:
+            try:
+                if Scraper().main().find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text == self.content:
+                    pass
+
+                else:
+                    SendMail().send_message()
+
+            except Exception:
+                SendMail().send_message()
+                break
+
+            time.sleep(5)
+
+
 if __name__ == '__main__':
-    while True:
-        try:
-            msg = Scraper().main().find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text
-
-        except Exception:
-            SendMail().send_message()
-            break
-
-        time.sleep(5)
-    SendMail().send_message()
+    Main().__call__()
