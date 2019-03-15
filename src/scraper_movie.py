@@ -72,13 +72,13 @@ class SendMail(object):
 
 
 if __name__ == '__main__':
-    # while True:
-    #     try:
-    #         msg = Scraper().main().find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text
-    #
-    #     except Exception:
-    #         SendMail().send_message()
-    #         break
-    #
-    #     time.sleep(5)
+    while True:
+        try:
+            msg = Scraper().main().find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text
+
+        except Exception:
+            SendMail().send_message()
+            break
+
+        time.sleep(5)
     SendMail().send_message()
