@@ -20,7 +20,7 @@ class Scraper:
     @staticmethod
     def soup(html):
         if html.status_code == 200:
-            open('../data/log_all.txt', 'a').write('Scraped information at {}'.format(datetime.datetime.today()))
+            open('../data/log_all.txt', 'a').write('Scraped information at {}\n'.format(datetime.datetime.today()))
             return BeautifulSoup(html.content, 'html.parser')
 
         else:
@@ -28,7 +28,7 @@ class Scraper:
                 if html.content == 200:
                     break
                 else:
-                    open('../data/log_error.txt', 'a').write('Error Code: {} at {}'.format(html.status_code,
+                    open('../data/log_error.txt', 'a').write('Error Code: {} at {}\n'.format(html.status_code,
                                                                                            datetime.datetime.today()))
 
     def main(self):
