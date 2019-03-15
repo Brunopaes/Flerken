@@ -71,7 +71,6 @@ if __name__ == '__main__':
     while True:
         try:
             msg = Scraper().main().find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text
-            print(datetime.datetime.today())
 
         except Exception:
             SendMail().send_message()
