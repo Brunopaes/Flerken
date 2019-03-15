@@ -4,6 +4,7 @@ Optmised for python 3.6.
 
 This project is aimed on entering on the 'ingresso.com' website and verifying 
 if the pre-released tickets are already available to buy.
+
 ----------------
 
 ### Project's Structure ###
@@ -22,6 +23,7 @@ if the pre-released tickets are already available to buy.
 
 - __Scraper:__ Class responsible for entering on the website and verifying if the tickets are already available to buy.
 - __SendMail:__ Class responsible for sending the email to an mail-list.
+
 ----------------
 
 ### Python requirements ###
