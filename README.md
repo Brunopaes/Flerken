@@ -12,6 +12,7 @@ if the pre-released tickets are already available to buy.
 - __data:__ log files:
     - __log_all:__ status code - 200
     - __log_error:__ status code != 200
+    - __recipients:__ list of email address
 
 - __doc:__ documentation & application requirements.
 

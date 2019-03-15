@@ -29,7 +29,7 @@ class Scraper:
                     break
                 else:
                     open('../data/log_error.txt', 'a').write('Error Code: {} at {}\n'.format(html.status_code,
-                                                                                           datetime.datetime.today()))
+                                                                                             datetime.datetime.today()))
 
     def main(self):
         return self.soup(self.accessing_page())
@@ -42,9 +42,10 @@ class SendMail(object):
         self.server = 'smtp.gmail.com'
         self.port = 587
 
-        self.recipients = 'gars97@gmail.com, brunopaes05@gmail.com, guinh97@gmail.com, briottoleo@gmail.com' \
-                          'thiagoandf@gmail.com, caiorulli@gmail.com, hellencfarias@gmail.com, enzo_98@me.com,' \
-                          'juliana_mayumi14@hotmail.com, guilhermemarcon@me.com, rcastromundgayel@hotmail.com'
+        # self.recipients = 'gars97@gmail.com, brunopaes05@gmail.com, guinh97@gmail.com, briottoleo@gmail.com' \
+        #                   'thiagoandf@gmail.com, caiorulli@gmail.com, hellencfarias@gmail.com, enzo_98@me.com,' \
+        #                   'juliana_mayumi14@hotmail.com, guilhermemarcon@me.com, rodrigocmundel@hotmail.com'
+        self.recipients = open('../data/recipients.txt').read()
 
         session = smtplib.SMTP(self.server, self.port)
         session.ehlo()
@@ -58,9 +59,12 @@ class SendMail(object):
         message["From"] = self.email
         message["To"] = self.recipients
 
-        message.attach(MIMEText('Avengers: End game pre-release sales has started at '
+        message.attach(MIMEText('The Avengers: End game pre-release sales has started!!\n'
+                                'You can find the available tickets at: '
                                 'https://www.ingresso.com/sao-paulo/home/filmes/vingadores-ultimato\n\n'
-                                'Please, certify yourself to warn "Flerken" group.'))
+                                'Please, certify yourself to warn "Flerken" group (your friends).\n\n'
+                                '------------------------\n'
+                                'Best Regards, Flerken - The Bot'))
 
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(self.email, self.password)
@@ -68,12 +72,13 @@ class SendMail(object):
 
 
 if __name__ == '__main__':
-    while True:
-        try:
-            msg = Scraper().main().find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text
-
-        except Exception:
-            SendMail().send_message()
-            break
-
-        time.sleep(5)
+    # while True:
+    #     try:
+    #         msg = Scraper().main().find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text
+    #
+    #     except Exception:
+    #         SendMail().send_message()
+    #         break
+    #
+    #     time.sleep(5)
+    SendMail().send_message()
