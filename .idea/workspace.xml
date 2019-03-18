@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ae9fb6-53a2-4d89-91cc-e54963e5a2c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/breakpoint.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
+    <list default="true" id="d4ae9fb6-53a2-4d89-91cc-e54963e5a2c9" name="Default Changelist" comment="breakpoint">
+      <change afterPath="$PROJECT_DIR$/doc/get-pip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/log_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/log_all.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/log_mail.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/log_mail.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/log_release.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/log_release.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scraper_movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scraper_movie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/06_4___Flerken$test.coverage" NAME="test Coverage Results" MODIFIED="1552949202970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/06_4___Flerken$scraper_movie.coverage" NAME="scraper_movie Coverage Results" MODIFIED="1552949590165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/06_4___Flerken$scraper_movie.coverage" NAME="scraper_movie Coverage Results" MODIFIED="1552952868742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1114926089">
@@ -31,29 +31,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="6" />
-          <entry key="txt" value="67" />
+          <entry key="py" value="7" />
+          <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="49" />
-          <entry key="py" value="2501" />
-          <entry key="txt" value="281" />
+          <entry key="py" value="2514" />
+          <entry key="txt" value="293" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="49" />
-          <entry key="PLAIN_TEXT" value="281" />
-          <entry key="Python" value="2501" />
+          <entry key="PLAIN_TEXT" value="293" />
+          <entry key="Python" value="2514" />
         </counts>
       </usages-collector>
     </session>
@@ -64,38 +64,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scraper_movie.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-                <element signature="e#222#479#0" />
-                <element signature="e#233#340#0" />
-                <element signature="e#492#515#0" />
-                <element signature="e#496#1060#0" />
-                <element signature="e#536#701#0" />
-                <element signature="e#729#1060#0" />
-                <element signature="e#757#1060#0" />
-                <element signature="e#849#1060#0" />
-                <element signature="e#1254#1398#0" />
-                <element signature="e#1180#1573#0" />
-                <element signature="e#1611#2483#0" />
-                <element signature="e#1810#2277#0" />
-                <element signature="e#2357#2483#0" />
-                <element signature="e#2800#2940#0" />
-                <element signature="e#2975#3285#0" />
-                <element signature="e#2970#3029#0" />
-                <element signature="e#3100#3260#0" />
-                <element signature="e#3332#3520#0" />
-                <element signature="e#3349#3461#0" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/data/log_all.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/log_mail.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/log_boolean.txt">
+        <entry file="file://$PROJECT_DIR$/data/log_release.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -137,11 +116,13 @@
         <option value="$PROJECT_DIR$/data/log_release.txt.py" />
         <option value="$PROJECT_DIR$/data/recipients.txt" />
         <option value="$PROJECT_DIR$/src/test.py" />
-        <option value="$PROJECT_DIR$/data/log_all.txt" />
-        <option value="$PROJECT_DIR$/data/log_release.txt" />
-        <option value="$PROJECT_DIR$/src/scraper_movie.py" />
         <option value="$PROJECT_DIR$/data/breakpoint.txt" />
+        <option value="$PROJECT_DIR$/data/log_mail.txt" />
+        <option value="$PROJECT_DIR$/src/scraper_movie.py" />
+        <option value="$PROJECT_DIR$/doc/get-pip.py" />
+        <option value="$PROJECT_DIR$/data/log_all.txt" />
         <option value="$PROJECT_DIR$/data/log_boolean.txt" />
+        <option value="$PROJECT_DIR$/data/log_release.txt" />
       </list>
     </option>
   </component>
@@ -333,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552837084078</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="breakpoint">
+      <created>1552949721659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552949721659</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -403,7 +391,8 @@
     <MESSAGE value="List of recipients - text file - adding ian" />
     <MESSAGE value="List of recipients - text file - adding main class" />
     <MESSAGE value="Adding double check - more logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding double check - more logs" />
+    <MESSAGE value="breakpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="breakpoint" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -439,15 +428,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/log_error.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/log_error.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/breakpoint.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/get-pip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="21361" lean-forward="true" selection-start-line="21361" selection-end-line="21361" />
+          <folding>
+            <element signature="e#1138#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scraper_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="111" column="45" lean-forward="true" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#1810#2277#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/log_boolean.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/log_all.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -456,41 +472,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/log_release.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scraper_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#222#479#0" />
-            <element signature="e#233#340#0" />
-            <element signature="e#492#515#0" />
-            <element signature="e#496#1060#0" />
-            <element signature="e#536#701#0" />
-            <element signature="e#729#1060#0" />
-            <element signature="e#757#1060#0" />
-            <element signature="e#849#1060#0" />
-            <element signature="e#1254#1398#0" />
-            <element signature="e#1180#1573#0" />
-            <element signature="e#1611#2483#0" />
-            <element signature="e#1810#2277#0" />
-            <element signature="e#2357#2483#0" />
-            <element signature="e#2800#2940#0" />
-            <element signature="e#2975#3285#0" />
-            <element signature="e#2970#3029#0" />
-            <element signature="e#3100#3260#0" />
-            <element signature="e#3332#3520#0" />
-            <element signature="e#3349#3461#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/breakpoint.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/log_boolean.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

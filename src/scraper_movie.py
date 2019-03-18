@@ -96,6 +96,7 @@ class Main:
         try:
             if html.find('strong', attrs={'class': 'tit3 d-block m-b-1'}).text == self.session:
                 return False
+            return False
 
         except Exception:
             return True
@@ -107,10 +108,10 @@ class Main:
         open('../data/log_boolean.txt', 'a').write('{}, {}, {}\n'.format(all_avengers, ultimato,
                                                                          datetime.datetime.today()))
 
-        if all_avengers is False and ultimato is False:
+        if all_avengers is True and ultimato is True:
             if 'break' in open('../data/breakpoint.txt', 'r').read():
                 SendMail().send_message()
-                open('../data/log_mail.txt', 'a').write('email sent at {}'.format(datetime.datetime.today()))
+                open('../data/log_mail.txt', 'a').write('email sent at {}\n'.format(datetime.datetime.today()))
                 open('../data/log_release.txt', 'a').write('By the time {} the movie has been released\n'.format(
                     datetime.datetime.today()
                 ))
