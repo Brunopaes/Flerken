@@ -1,0 +1,1 @@
+print(open('../data/breakpoint.txt', 'r').read())

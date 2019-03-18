@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 import datetime
 import requests
 import smtplib
-import time
 
 
 class Scraper:
@@ -102,26 +101,27 @@ class Main:
             return True
 
     def __call__(self, *args, **kwargs):
-        while True:
-            all_avengers = self.get_avengers(Scraper().main()[0])
-            ultimato = self.get_ultimato(Scraper().main()[1])
+        all_avengers = self.get_avengers(Scraper().main()[0])
+        ultimato = self.get_ultimato(Scraper().main()[1])
 
-            open('../data/log_boolean.txt', 'a').write('all_avengers: {}, ultimato: {}\n'.format(all_avengers, ultimato))
+        open('../data/log_boolean.txt', 'a').write('{}, {}, {}\n'.format(all_avengers, ultimato,
+                                                                         datetime.datetime.today()))
 
-            if all_avengers is True and ultimato is True:
+        if all_avengers is False and ultimato is False:
+            if 'break' in open('../data/breakpoint.txt', 'r').read():
                 SendMail().send_message()
                 open('../data/log_mail.txt', 'a').write('email sent at {}'.format(datetime.datetime.today()))
                 open('../data/log_release.txt', 'a').write('By the time {} the movie has been released\n'.format(
                     datetime.datetime.today()
                 ))
-                break
+                open('../data/breakpoint.txt', 'a').write('break\n')
 
             else:
-                open('../data/log_release.txt', 'a').write('By the time {} the movie has not been released\n'.format(
-                    datetime.datetime.today()
-                ))
-
-            time.sleep(30)
+                pass
+        else:
+            open('../data/log_release.txt', 'a').write('By the time {} the movie has not been released\n'.format(
+                datetime.datetime.today()
+            ))
 
 
 if __name__ == '__main__':
